@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <p class="text-muted">Copyright &copy; 2023 PhD Hunter</p>
+        <p class="text-muted">Copyright &copy; 2023 Campus Compass</p>
       </div>
     </div>
   </div>
