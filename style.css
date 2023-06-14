@@ -1,4 +1,4 @@
-#main_title{
+#main_title {
     text-align: center;
     background-color: #333;
     color: #fff;
@@ -6,26 +6,64 @@
     letter-spacing: 2px;
     font-weight: 700;
 }
-.box1{
+
+.box1 {
     margin-top: 10px;
 }
-.box1 h2{
+
+.box1 h2 {
     float: left;
 }
-.box1 button{
+
+.box1 button {
     float: right;
 }
-.container{
-    margin-top:50px;
+
+.container {
+    margin-top: 50px;
 }
-h6{
+
+h6 {
     text-align: center;
     color: red;
 }
-h5{
+
+h5 {
     text-align: center;
-    color: green;
+    color: #1098c5;
 }
-.update_btn{
+
+.update_btn {
     margin-top: 10px;
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+}
+
+.university-list {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+.university-list h2 {
+    color: #00674f;
+}
+
+.university-list p {
+    text-align: justify;
+    color: #535353;
+}
+
+.university-list p:nth-child(1) {
+    text-align: justify;
+    color: #b5036b;
+}
+
+.university-list a {
+    text-decoration: none;
 }
