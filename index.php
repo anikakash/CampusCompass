@@ -17,6 +17,7 @@
                 <th>Department</th>
                 <th>Course Duration</th>
                 <th>Location</th>
+                <th>Description</th>
             </tr>
         </thead>
         <tbody>
@@ -34,6 +35,7 @@
                             <td><?php echo $items['department']; ?></td>
                             <td><?php echo $items['courses_duration']; ?></td>
                             <td><?php echo $items['location']; ?></td>
+                            <td><?php echo $items['desc']; ?></td>
                         </tr>
                     <?php
                     }
@@ -58,6 +60,7 @@
                             <td><?php echo $row['department']; ?></td>
                             <td><?php echo $row['courses_duration']; ?></td>
                             <td><?php echo $row['location']; ?></td>
+                            <td><?php echo $row['desc']; ?></td>
                         </tr>
             <?php
                     }
