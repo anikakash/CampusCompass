@@ -3,7 +3,7 @@
         $username = $_POST['uname'];
         $password = $_POST['password'];
         if ($username && $password) {
-            $query   = "SELECT * FROM `admin` WHERE uname='$username' AND password='" . md5($password) . "'";
+            $query   = "SELECT * FROM `admin` WHERE uname='$username' AND password='" . $password . "'";
             $result = mysqli_query($connection, $query);
             if ($result) {
                 $rows = mysqli_num_rows($result);

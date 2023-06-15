@@ -20,12 +20,14 @@ Instead of going through all institutions' websites. Get all insights in short f
   <a href="https://github.com/search?q=user%3ADenverCoder1+language%3Ahtml"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
     <a href="https://github.com/search?q=user%3ADenverCoder1+language%3Acss"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
  <a href="#"><img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-7952B3.svg?logo=bootstrap&logoColor=white"></a>
- <a href="#"><img alt="Bootstrap" src="https://img.shields.io/badge/php-7992B3.svg?logo=php&logoColor=white"></a>
-  <a href="#"><img alt="Bootstrap" src="
- https://img.shields.io/badge/mysql-FFF0000.svg?logo=mysql&logoColor=white"></a>
+ <a href="#"><img alt="php" src="https://img.shields.io/badge/php-7992B3.svg?logo=php&logoColor=white"></a>
+  <a href="#"><img alt="MySQL" src="https://img.shields.io/badge/mysql-FFF0000.svg?logo=mysql&logoColor=white"></a>
 
 
 # Contributiors:
-<a>
-<img src="https://contrib.rocks/image?repo=progtheta/CampusCompass"/>
+<a href="https://github.com/progtheta/CampusCompass/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=progtheta/CampusCompass" />
 </a>
+
+
+- Bornita

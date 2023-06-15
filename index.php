@@ -4,7 +4,7 @@
 <div class="mx-auto" style="width: 80vw;">
     <form action="" method="GET">
         <div class="input-group mb-3">
-            <input type="text" name="search" required value="<?php echo isset($_GET['search']) ? $_GET['search'] : ''; ?>" class="form-control" placeholder="Search data">
+            <input type="text" name="search" required value="<?php echo isset($_GET['search']) ? $_GET['search'] : ''; ?>" class="form-control" placeholder="Search University">
             <button type="submit" class="btn btn-primary">Search</button>
         </div>
     </form>
@@ -23,10 +23,10 @@
                 <h2><?php echo $row['uniName']; ?></h2>
                 <div class="info" style="display: flex">
                     <h5><i class="fa-duotone fa-map-location"></i> <?php echo $row['location']; ?></h5>
-                    <h5><i class="fa-duotone fa-graduation-cap"></i> <?php echo $row['time']; ?> Years</h4>
+                    <h5><i class="fa-duotone fa-graduation-cap"></i> <?php echo $row['semester']; ?> Semesters</h4>
                     <h5><i class="fa-duotone fa-building-columns"></i> <?php echo $row['type']; ?></h4>
                 </div>
-                <p><?php echo $row['description']; ?> <a href="/du">Learn More</a></p>
+                <p><?php echo $row['description']; ?> <a href="university_info.php?id=<?php echo $row['id'];?>">Learn More</a></p>
             </div>
     <?php
         }
