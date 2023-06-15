@@ -20,12 +20,14 @@ Instead of going through all institutions' websites. Get all insights in short f
   <a href="https://github.com/search?q=user%3ADenverCoder1+language%3Ahtml"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
     <a href="https://github.com/search?q=user%3ADenverCoder1+language%3Acss"><img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?logo=css3&logoColor=white"></a>
  <a href="#"><img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-7952B3.svg?logo=bootstrap&logoColor=white"></a>
- <a href="#"><img alt="Php" src="https://img.shields.io/badge/php-7992B3.svg?logo=php&logoColor=white"></a>
-  <a href="#"><img alt="MySQ:" src="https://img.shields.io/badge/mysql-FFF0000.svg?logo=mysql&logoColor=white"></a>
+ <a href="#"><img alt="php" src="https://img.shields.io/badge/php-7992B3.svg?logo=php&logoColor=white"></a>
+  <a href="#"><img alt="MySQL" src="https://img.shields.io/badge/mysql-FFF0000.svg?logo=mysql&logoColor=white"></a>
 
 
 # Contributiors:
-<a>
-<img src="https://storage.googleapis.com/cache.storage.contrib.rocks/image-cache/progtheta--CampusCompass--noanon_100_12.svg?Expires=1686926145&GoogleAccessId=production-api%40contributors-img.iam.gserviceaccount.com&Signature=hcQGEuObUhb6CaKwZsm1KqCBL6Utxh3gWf0mUyPsVf%2BqoXb4PwXi%2BHrvIwlUk7O1osVWjXZwKIhsz%2BDodsJBeC1iUzIUbaST27ZiAnQiCS3GJaA%2Fr1tWS85MibIcMVE%2FwilSVULJecO3ssVPItqQ%2B0v251m11TVH732xmd388dom93KcqmVm9UbWOph8SYq8%2B5MxUws6jKLqdXsoD2dP882bJ%2FkCmukuZoS3UZmWumvqAQjypJd8eDzXuSNZBNzMLsalh49vJT%2BEXYKcC4tlxJsTR9PSQOvVIq%2F%2FaBFhmE73nXa3wpULQyFFRlvi3X%2F5hnlbuV%2F7ehiGXC%2F3en7V1w%3D%3D"/>
+<a href="https://github.com/progtheta/CampusCompass/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=progtheta/CampusCompass" />
 </a>
-- Bornita (Did university listing and research)
+
+
+- Bornita
