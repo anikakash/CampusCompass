@@ -4,7 +4,7 @@
 <div class="mx-auto" style="width: 80vw;">
     <form action="" method="GET">
         <div class="input-group mb-3">
-            <input type="text" name="search" required value="<?php echo isset($_GET['search']) ? $_GET['search'] : ''; ?>" class="form-control" placeholder="Search data">
+            <input type="text" name="search" required value="<?php echo isset($_GET['search']) ? $_GET['search'] : ''; ?>" class="form-control" placeholder="Search University">
             <button type="submit" class="btn btn-primary">Search</button>
         </div>
     </form>

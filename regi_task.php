@@ -14,7 +14,7 @@ if (!$connection) {
         $f_name = $_POST['fname'];
         $u_name = $_POST['uname'];
         $password = $_POST['password'];
-        $passwordHash = md5($password);
+        $passwordHash = $password;
         if ($f_name && $u_name && $passwordHash) {
             $query = "INSERT into `admin` (fname, uname, password) VALUES ('$f_name', '$u_name', '$passwordHash')";
             mysqli_query($connection, $query);
