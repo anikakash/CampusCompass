@@ -23,10 +23,10 @@
                 <h2><?php echo $row['uniName']; ?></h2>
                 <div class="info" style="display: flex">
                     <h5><i class="fa-duotone fa-map-location"></i> <?php echo $row['location']; ?></h5>
-                    <h5><i class="fa-duotone fa-graduation-cap"></i> <?php echo $row['time']; ?> Years</h4>
+                    <h5><i class="fa-duotone fa-graduation-cap"></i> <?php echo $row['semester']; ?> Semesters</h4>
                     <h5><i class="fa-duotone fa-building-columns"></i> <?php echo $row['type']; ?></h4>
                 </div>
-                <p><?php echo $row['description']; ?> <a href="/du">Learn More</a></p>
+                <p><?php echo $row['description']; ?> <a href="university_info.php?id=<?php echo $row['id'];?>">Learn More</a></p>
             </div>
     <?php
         }
