@@ -2,7 +2,7 @@
 define("HOSTNAME", "localhost");
 define("USERNAME", "root");
 define("PASSWORD", "");
-define("DATABASE", "crud_operation");
+define("DATABASE", "campuscompass");
 
 $connection = mysqli_connect(HOSTNAME, USERNAME, PASSWORD, DATABASE);
 
