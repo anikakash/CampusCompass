@@ -13,15 +13,19 @@ include_once './auth_user.php'
         <tr>
             <th>ID</th>
             <th>University Name</th>
-            <th>Department</th>
-            <th>Course Duration</th>
             <th>Location</th>
+            <th>Semesters</th>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Tution Fee</th>
+            <th>Credit System</th>
+            <th>Entrance System</th>
             <th>Update</th>
             <th>Delete</th>
         </tr>
         <tr>
             <?php
-                $query = "select * from `students`";
+                $query = "select * from `unis`";
                 $result = mysqli_query($connection, $query);
 
                 if(!$result){
@@ -32,10 +36,14 @@ include_once './auth_user.php'
                         ?>
                             <tr>
                                 <td> <?php echo $row['id'];  ?> </td>
-                                <td> <?php echo $row['uni_name'];  ?> </td>
-                                <td> <?php echo $row['department'];  ?> </td>
-                                <td> <?php echo $row['courses_duration'];  ?> </td>
+                                <td> <?php echo $row['uniName'];  ?> </td>
                                 <td> <?php echo $row['location'];  ?> </td>
+                                <td> <?php echo $row['semester'];  ?> </td>
+                                <td> <?php echo $row['type'];  ?> </td>
+                                <td> <?php echo $row['description'];  ?> </td>
+                                <td> <?php echo $row['tuition_fee'];  ?> </td>
+                                <td> <?php echo $row['credit_system'];  ?> </td>
+                                <td> <?php echo $row['entrance_system'];  ?> </td>
                                 <td><a href="update_page_1.php?id=<?php echo $row['id'];?>" class='btn btn-success'>Update</a></td>
                                 <td><a href="delete_page.php?id=<?php echo $row['id'];?>" class='btn btn-danger'>Delete</a></td>
                             </tr>
@@ -85,24 +93,49 @@ include_once './auth_user.php'
 
       <div class="modal-body">
             <div class="form-group">
-                <label for="uni_name">University Name</label>
-                <input type="text" name="uni_name" class="form-control">
+                <label for="id">ID</label>
+                <input type="number" name="id" class="form-control">
             </div>
-
             <div class="form-group">
-                <label for="department">Department</label>
-                <input type="text" name="department" class="form-control">
-            </div>
-
-            <div class="form-group">
-                <label for="courses_duration">Course Duration</label>
-                <input type="text" name="courses_duration" class="form-control">
+                <label for="uniName">University Name</label>
+                <input type="text" name="uniName" class="form-control">
             </div>
 
             <div class="form-group">
                 <label for="location">Location</label>
                 <input type="text" name="location" class="form-control">
             </div>
+
+            <div class="form-group">
+                <label for="semester">Semester</label>
+                <input type="number" name="semester" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="type">Type</label>
+                <input type="text" name="type" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description</label>
+                <input type="text" name="description" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="tuition_fee">Tuition Fee</label>
+                <input type="number" name="tuition_fee" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="credit_system">Credit System</label>
+                <input type="text" name="credit_system" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="entrance_system">Entrance System</label>
+                <input type="text" name="entrance_system" class="form-control">
+            </div>
+
       </div>
 
       <div class="modal-footer">
