@@ -52,22 +52,23 @@ CREATE TABLE `students` (
   `uni_name` varchar(255) NOT NULL,
   `department` varchar(255) NOT NULL,
   `courses_duration` varchar(255) NOT NULL,
-  `location` varchar(255) NOT NULL
+  `location` varchar(255) NOT NULL,
+  `desc` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `students`
 --
 
-INSERT INTO `students` (`id`, `uni_name`, `department`, `courses_duration`, `location`) VALUES
-(2, 'American International University-Bangladesh', 'EEE', '3', 'Dhaka'),
-(3, 'Anwer Khan Modern University', 'BBA', '3', 'Dhaka'),
-(4, 'Daffodil International University', 'CSE', '4', 'Dhaka'),
-(7, 'Bangabandhu Sheikh Mujibur Rahman Agricultural University', 'Vatenary', '4', 'Gazipur'),
-(8, 'Bangladesh Agricultural University', 'Agg', '4', 'Mymensingh'),
-(9, 'Bangladesh University of Professionals', 'ICE', '4', 'Mirpur'),
-(10, 'Chittagong Medical University', 'MBBS', '4', 'Chittagong'),
-(11, 'Harvard University', 'CS', '4', 'Cambridge');
+INSERT INTO `students` (`id`, `uni_name`, `department`, `courses_duration`, `location` , `desc` ) VALUES
+(2, 'American International University-Bangladesh', 'EEE', '3', 'Dhaka', 'Worcester Polytechnic Institute is a global leader in project-based learning and one of the nation’s first engineering and technology universities. As a research university centered on engineering, science, technology, and mathematics, WPI’s distinctive curriculum offers students opportunities to work closely with faculty and convert classroom concepts to real-world impact.'),
+(3, 'Anwer Khan Modern University', 'BBA', '3', 'Dhaka', 'Worcester Polytechnic Institute is a global leader in project-based learning and one of the nation’s first engineering and technology universities. As a research university centered on engineering, science, technology, and mathematics, WPI’s distinctive curriculum offers students opportunities to work closely with faculty and convert classroom concepts to real-world impact.'),
+(4, 'Daffodil International University', 'CSE', '4', 'Dhaka', 'Worcester Polytechnic Institute is a global leader in project-based learning and one of the nation’s first engineering and technology universities. As a research university centered on engineering, science, technology, and mathematics, WPI’s distinctive curriculum offers students opportunities to work closely with faculty and convert classroom concepts to real-world impact.'),
+(7, 'Bangabandhu Sheikh Mujibur Rahman Agricultural University', 'Vatenary', '4', 'Gazipur', 'Worcester Polytechnic Institute is a global leader in project-based learning and one of the nation’s first engineering and technology universities. As a research university centered on engineering, science, technology, and mathematics, WPI’s distinctive curriculum offers students opportunities to work closely with faculty and convert classroom concepts to real-world impact.'),
+(8, 'Bangladesh Agricultural University', 'Agg', '4', 'Mymensingh', 'Worcester Polytechnic Institute is a global leader in project-based learning and one of the nation’s first engineering and technology universities. As a research university centered on engineering, science, technology, and mathematics, WPI’s distinctive curriculum offers students opportunities to work closely with faculty and convert classroom concepts to real-world impact.'),
+(9, 'Bangladesh University of Professionals', 'ICE', '4', 'Mirpur', 'Worcester Polytechnic Institute is a global leader in project-based learning and one of the nation’s first engineering and technology universities. As a research university centered on engineering, science, technology, and mathematics, WPI’s distinctive curriculum offers students opportunities to work closely with faculty and convert classroom concepts to real-world impact.'),
+(10, 'Chittagong Medical University', 'MBBS', '4', 'Chittagong', 'Worcester Polytechnic Institute is a global leader in project-based learning and one of the nation’s first engineering and technology universities. As a research university centered on engineering, science, technology, and mathematics, WPI’s distinctive curriculum offers students opportunities to work closely with faculty and convert classroom concepts to real-world impact.'),
+(11, 'Harvard University', 'CS', '4', 'Cambridge', 'Worcester Polytechnic Institute is a global leader in project-based learning and one of the nation’s first engineering and technology universities. As a research university centered on engineering, science, technology, and mathematics, WPI’s distinctive curriculum offers students opportunities to work closely with faculty and convert classroom concepts to real-world impact.');
 
 --
 -- Indexes for dumped tables
