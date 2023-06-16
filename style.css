@@ -6,6 +6,9 @@
     letter-spacing: 2px;
     font-weight: 700;
 }
+#btn btn-light{
+    text-decoration: none;
+}
 
 .box1 {
     margin-top: 10px;
