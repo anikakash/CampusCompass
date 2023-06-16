@@ -25,7 +25,7 @@ include_once './auth_user.php'
         </tr>
         <tr>
             <?php
-                $query = "select * from `unis`";
+                $query = "select * from `unis` ORDER BY id ASC";
                 $result = mysqli_query($connection, $query);
 
                 if(!$result){
@@ -76,7 +76,13 @@ include_once './auth_user.php'
     
     <?php
         if(isset($_GET['delete_msg'])){
-            echo "<h6 style='color:orange'>".$_GET['delete_msg']."</h6>";
+            echo "<h6 style='color:red'>".$_GET['delete_msg']."</h6>";
+        }
+    ?>
+
+<?php
+        if(isset($_GET['already_exist'])){
+            echo "<h6 style='color:organe'>".$_GET['already_exist']."</h6>";
         }
     ?>
 

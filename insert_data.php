@@ -16,7 +16,7 @@ if(isset($_POST['add_unis'])){
     $query = "SELECT * FROM `unis` WHERE `id` = '$id'";
     $cros_chk_uni_info = mysqli_query($connection, $query);
     if(mysqli_num_rows($cros_chk_uni_info)>0){
-        echo '<script>alert("University already exists!");</script>';
+        header('location:admin_home.php?already_exist=University already exists');
     }
     else{
         $query = "insert into `unis` (`id`, `uniName`, `location`, `semester`,`type`, `description`, `tuition_fee`, `credit_system`, `entrance_system`) values('$id', '$uname', '$location','$sem', '$type', '$desc', '$tusion', '$csystem', '$esystem')";
