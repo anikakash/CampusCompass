@@ -35,7 +35,8 @@
             $csystem = $_POST['credit_system'];
             $esystem = $_POST['entrance_system'];
 
-            $query = "update `unis` set `uniName` = '$uname', `location` = '$location', `semester` = '$sem', `description` = '$desc', `tuition_fee` = '$tusion', `credit_system` = '$csystem', `entrance_system` = '$esystem'  where `id` = '$idnew'";
+            $query = "update `unis` set `uniName` = '$uname', `location` = '$location', `semester` = '$sem',
+            `type` = '$type', `description` = '$desc', `tuition_fee` = '$tusion', `credit_system` = '$csystem', `entrance_system` = '$esystem'  where `id` = '$idnew'";
 
             $result = mysqli_query($connection, $query);
             

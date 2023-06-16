@@ -13,8 +13,10 @@ if(isset($_POST['add_unis'])){
     $csystem = $_POST['credit_system'];
     $esystem = $_POST['entrance_system']; 
 
-    if($uname == "" || empty($uname)){
-        header('location:index.php?message=You need to fill in the first name');
+    $query = "SELECT * FROM `unis` WHERE `id` = '$id'";
+    $cros_chk_uni_info = mysqli_query($connection, $query);
+    if(mysqli_num_rows($cros_chk_uni_info)>0){
+        echo '<script>alert("University already exists!");</script>';
     }
     else{
         $query = "insert into `unis` (`id`, `uniName`, `location`, `semester`,`type`, `description`, `tuition_fee`, `credit_system`, `entrance_system`) values('$id', '$uname', '$location','$sem', '$type', '$desc', '$tusion', '$csystem', '$esystem')";
