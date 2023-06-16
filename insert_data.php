@@ -17,7 +17,7 @@ if(isset($_POST['add_unis'])){
         header('location:index.php?message=You need to fill in the first name');
     }
     else{
-        $query = "insert into `unis` (`id`, uniName`, `location`, `semester`,`type`, `description`, `tuition_fee`, `credit_system`, `entrance_system`) values('$id', '$uname', '$location','$sem', '$type', '$desc', '$tusion', '$csystem', '$esystem)";
+        $query = "insert into `unis` (`id`, `uniName`, `location`, `semester`,`type`, `description`, `tuition_fee`, `credit_system`, `entrance_system`) values('$id', '$uname', '$location','$sem', '$type', '$desc', '$tusion', '$csystem', '$esystem')";
             
         $result = mysqli_query($connection,$query);
 

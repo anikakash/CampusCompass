@@ -140,7 +140,7 @@ include_once './auth_user.php'
 
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <input type="submit" class="btn btn-success" name="add_students" value="ADD">
+        <input type="submit" class="btn btn-success" name="add_unis" value="ADD">
       </div>
     </div>
   </div>
