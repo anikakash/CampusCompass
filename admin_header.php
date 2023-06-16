@@ -31,8 +31,8 @@
 
                 <div class="col-md-3 text-end">
                     <button type="button" class="btn btn-outline-primary me-2 link"><a href="./login.php">Login</a></button>
-                    <button type="submit" class="btn btn-light"><a href="https://github.com/progtheta">About</a></button>
-                    
+                    <button type="button" class="btn btn-primary"><a href="./registration.php" style="color:white">Sign Up</a></button>
+                    <button type="button" class="btn btn-danger"><a href="./logout.php" style="color:white">Logout</a></button>
                 </div>
             </header>
         </div>
