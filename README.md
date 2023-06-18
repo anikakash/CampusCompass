@@ -30,4 +30,3 @@ Instead of going through all institutions' websites. Get all insights in short f
 </a>
 
 
-- Bornita
