@@ -13,7 +13,7 @@ if (!$connection) {
         $username = $_POST['uname'];
         $password = $_POST['password'];
         if ($username && $password) {
-            $query   = "SELECT * FROM `admin` WHERE username='$username' AND password='" . $password . "'";
+            $query   = "SELECT * FROM `admin` WHERE uname='$username' AND password='" . $password . "'";
             $result = mysqli_query($connection, $query);
             include_once './login_success.php';
         }
