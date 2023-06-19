@@ -1,5 +1,5 @@
 <?php
-session_start();
+// session_start();
 include_once "dbcon.php";
 // $connection = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 
