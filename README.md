@@ -14,7 +14,7 @@ Instead of going through all institutions' websites. Get all insights in short f
 
 - University Research: We give you all the necessary information to do your university research. We are providing you minimal ads/junk free pages.   
 - Centralized Information :Now instead of going through dozens of site, you can browse all info in a single site
-- Community Driven: All information provided by community and approved by admins
+- Community Driven: All information provided by community and verified by admins
 
 #  Technology:
   <a href="https://github.com/search?q=user%3ADenverCoder1+language%3Ahtml"><img alt="HTML" src="https://img.shields.io/badge/HTML-E34F26.svg?logo=html5&logoColor=white"></a>
